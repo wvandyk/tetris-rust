@@ -19,3 +19,6 @@ SRS rotation is implemented.
 * overhaul the scoring system
 * sound and music
 * more animations and player feedback
+
+
+![image](https://github.com/wvandyk/tetris-rust/assets/851446/e329bc3b-8e74-4bd2-ae83-fe7136374596)
