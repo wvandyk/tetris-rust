@@ -38,18 +38,10 @@ impl TetrisPiece {
     pub fn new(piece_type: TetrisPieceType) -> TetrisPiece {
         let grid = match piece_type {
             TetrisPieceType::I => vec![
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                0, 1, 1, 1, 1, 
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
+                0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             ],
             TetrisPieceType::O => vec![
-                0, 0, 0, 0, 0, 
-                0, 0, 2, 2, 0, 
-                0, 0, 2, 2, 0, 
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
+                0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             ],
             TetrisPieceType::T => vec![
                 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
